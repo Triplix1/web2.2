@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+h2 {
+  color: brown;
+  font-style: sans-serif;
+}
+img {
+  width: 95%;
+  margin: 10px auto;
+}
+.header,
+.footer {
+  min-height: 12vh;
+  display: flex;
+  align-items: flex-end;
+}
+.header {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  margin: 15px;
+}
+.list {
+  width: fit-content;
+  display: flex;
+  margin: auto;
+}
+.item {
+  list-style: none;
+  padding: 5px;
+  margin: 0 7px;
+}
+.item a {
+  color: rgb(125, 3, 3);
+  font-style: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+.item:hover {
+  background-color: rgb(203, 203, 203);
+  border-radius: 3px;
+  transition: 0.4s;
+}
+.text {
+  float: right;
+  margin: 0 3% 2% 3%;
+  align-self: flex-end;
+}
+.main {
+  min-height: 76vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: slategrey;
+}
+.section {
+  min-height: 100%;
+  height: max(100% fit-content);
+  display: flex;
+  flex-direction: column;
+}
+.first,
+.second {
+  width: 25%;
+  background-color: #aaa;
+}
+.content {
+  margin: auto 5%;
+  font-family: sans-serif;
+  height: auto;
+  max-width: 100%;
+  padding: auto;
+}
+.third {
+  min-height: 100%;
+  width: 40%;
+  background-color: #aaa;
+  justify-content: space-between;
+}
+.column {
+  background-color: rgb(79, 1, 1);
+  width: 43%;
+  min-height: 100%;
+  color: #ccc;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.first-row {
+  padding: 2% 5px;
+  min-height: max(fit-contnet 15%);
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.footer {
+  background-color: #222;
+  justify-content: right;
+}
